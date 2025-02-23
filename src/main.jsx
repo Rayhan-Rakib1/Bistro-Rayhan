@@ -9,8 +9,8 @@ import { HelmetProvider } from 'react-helmet-async';
 import AuthProvider from './provider/AuthProvider';
 import {
   QueryClient,
-  QueryClientProvider,
-  useQuery,
+   QueryClientProvider,
+   useQuery,
 } from '@tanstack/react-query'
 
 const queryClient = new QueryClient()
